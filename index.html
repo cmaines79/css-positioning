@@ -7,25 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f6600aa80.js" crossorigin="anonymous"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header class="container">
-        <div class="header-wrapper">
+        <div class="full-width-header">
             <div class="newsletter">
                 <h3><a href="#">Newsletters</a></h3>
                 <p><a href="#">Sign up to read our regular email newsletters</a></p>
-            </div>
-            <div class="burger" id="burger">
-                <button>
-                    <span>
-                        <span class="primary-nav-burger"></span>
-                        <span class="primary-nav-burger"></span>
-                        <span class="primary-nav-burger"></span>
-                    </span>
-                </button>
             </div>
             <div class="logo">
                 <img src="/img/logo.svg" alt="logo">
@@ -34,7 +26,84 @@
                 <a href="#" class="subscribe-button" id="subscribe-button-aside">Subscribe and Save 69%</a>
             </div>
         </div>
+        <div class="mobile-width-header">
+            <div class="mobile-width-wrapper">
+                <div class="burger" id="burger">
+                    <button>
+                        <span>
+                            <span class="primary-nav-burger"></span>
+                            <span class="primary-nav-burger"></span>
+                            <span class="primary-nav-burger"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="mobile-logo">
+                    <img src="/img/logo.svg" alt="logo">
+                </div>
+                <div class="user-icons">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="mobile-subscribe">
+                    <a href="#" class="subscribe-button-mobile" id="subscribe-button-aside">Subscribe and Save 69%</a>
+            </div>
+        </div>
     </header>
+    <main class="container">
+        <div class="article">
+            <div class="article-title">
+                <h1>Ancient lake in Mars's Gale crater may have actually been a small pond</h1>
+            </div>
+            <div class="social">
+                <ul>
+                    <li class="social-icon" id="facebook"><a href="#"><img src="/img/facebook.svg" alt="facebook"></a></li>
+                    <li class="social-icon" id="twitter"><a href="#"><img src="/img/twitter.svg" alt="twitter"></a></li>
+                    <li class="social-icon" id="whatsapp"><a href="#"><img src="/img/whatsapp.svg" alt="whatsapp"></a></li>
+                    <li class="social-icon" id="linkedin"><a href="#"><img src="/img/linkedin.svg" alt="linkedin"></a></li>
+                    <li class="social-icon" id="reddit"><a href="#"><img src="/img/reddit.svg" alt="reddit"></a></li>
+                    <li class="social-icon" id="email"><a href="#"><img src="/img/mail.svg" alt="email"></a></li>
+                    <li class="social-icon" id="print"><a href="#"><img src="/img/print.svg" alt="print"></a></li>
+                </ul>
+            </div>
+            <div class="date">
+                <h2><span><a href="#">space</a></span> 6 august 2021</h2>
+            </div>
+            <div class="author">
+                <p>By <span><a href="#">Leah Crane</a></span></p>
+            </div>
+            <div class="article-image">
+                <img src="/img/mars.jpg" alt="mars">
+                <p class="subheading">The rocks inside Gale crater hint there may not have been a large lake after all</p>
+                <p class="photo-credit">NASA/JLP-Caltech/University of Arizona</p>
+            </div>
+            <div class="article-content">
+                <p>A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover has been <a href="#">exploring Gale crater</a> for more than eight years, and while early observations suggested the entire crater may once have been filled with water, a new analysis implies that it just had a series of ponds instead.</p>
+                <p>Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of alteration to determine how rocks were weathered over time. <a href="#">Joseph Michalski</a> at the University of Hong Kong and his colleagues have suggested that because this measure was developed for use on Earth, it may not be valid in the extreme Martian climate.</p>
+                <p>Instead, they analysed the concentrations of various compounds that are expected to change based on different types of weathering over time. They found that some of the layers of rock Curiosity examined did interact with water at some point in their past, but more are likely to have formed outside of the water.</p>
+            </div>
+            <div class="read-more">
+                <h4><span>Read more: </span><a href="#">Microbes burping methane on Mars may be right next to NASA rover</a></h4>
+            </div>
+            <div class="article-content">
+                <p>“Over hundreds of metres of strata, it seems that the only layers that are demonstrably lacustrine [formed in a lake] are the lower few metres,” says Michalski. “Of the rocks visited by the rover… the fraction that is demonstrably lacustrine is something like 1 per cent.”</p>
+                <p>These rocks were mostly in the lowest few metres of <a href="#">sediments in the crater</a>, suggesting the lake was not nearly as deep or extensive as we thought. “There was likely a small lake or more likely a series of small lakes in the floor of Gale crater, but these were shallow ponds,” says Michalski.</p>
+                <p>The rocks that didn’t form in water appeared to be volcanic, so Michalski says that they may have formed out of ash from volcanic eruptions after the water in Gale crater had dried up. Observations by other Mars missions have hinted that these sediments were deposited by wind, not water, so this may solve that mismatch.</p>
+                <p id="reference"><strong>Journal reference:</strong> Science Advances, <a href="#">DOI: 10.1126/sciadv.abh2687</a></p>
+                <p id="sign-up">Sign up to our free <a href="#">Launchpad</a> newsletter for a voyage across the galaxy and beyond, every Friday</p>
+            </div>
+            <div class="more-topics">
+                <p>More on these topics:</p>
+                <ul>
+                    <li class="more-topics-btns"><a href="#">planets</a></li>
+                    <li class="more-topics-btns"><a href="#">mars</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="side-bar">
+
+        </div>
+    </main>
 </body>
 </html>
 
