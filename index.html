@@ -15,15 +15,39 @@
 <body>
     <header class="container">
         <div class="full-width-header">
-            <div class="newsletter">
-                <h3><a href="#">Newsletters</a></h3>
-                <p><a href="#">Sign up to read our regular email newsletters</a></p>
+            <div class="header-wrapper">
+                <div class="newsletter">
+                    <h3><a href="#">Newsletters</a></h3>
+                    <p><a href="#">Sign up to read our regular email newsletters</a></p>
+                </div>
+                <div class="logo">
+                    <img src="/img/logo.svg" alt="logo">
+                </div>
+                <div class="subscribe">
+                    <a href="#" class="subscribe-button" id="subscribe-button-aside">Subscribe and Save 69%</a>
+                </div>
             </div>
-            <div class="logo">
-                <img src="/img/logo.svg" alt="logo">
-            </div>
-            <div class="subscribe">
-                <a href="#" class="subscribe-button" id="subscribe-button-aside">Subscribe and Save 69%</a>
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li class="nav-links">news</li>
+                        <li class="nav-links">podcasts</li>
+                        <li class="nav-links">technology</li>
+                        <li class="nav-links active-link">Space</li>
+                        <li class="nav-links">physics</li>
+                        <li class="nav-links">health</li>
+                        <li class="nav-links">more</li>
+                        <li class="nav-links nav-blue">shop</li>
+                        <li class="nav-links nav-blue">courses</li>
+                        <li class="nav-links nav-blue">events</li>
+                        <li class="nav-links nav-blue">tours</li>
+                        <li class="nav-links nav-blue">jobs</li>
+                    </ul>
+                </nav>
+                <div class="user-icons">
+                    <a href="#"><i class="fas fa-user"></i>Sign In</a>
+                    <a href="#"><i class="fas fa-search"></i>Search</a>
+                </div>
             </div>
         </div>
         <div class="mobile-width-header">
@@ -50,7 +74,7 @@
             </div>
         </div>
     </header>
-    <main class="container">
+    <main class="container main-section">
         <div class="article">
             <div class="article-title">
                 <h1>Ancient lake in Mars's Gale crater may have actually been a small pond</h1>
@@ -99,9 +123,63 @@
                     <li class="more-topics-btns"><a href="#">mars</a></li>
                 </ul>
             </div>
+            <div class="marketing">
+                <div class="social">
+                    <ul>
+                        <li class="social-icon" id="facebook"><a href="#"><img src="/img/facebook.svg" alt="facebook"></a></li>
+                        <li class="social-icon" id="twitter"><a href="#"><img src="/img/twitter.svg" alt="twitter"></a></li>
+                        <li class="social-icon" id="whatsapp"><a href="#"><img src="/img/whatsapp.svg" alt="whatsapp"></a></li>
+                        <li class="social-icon" id="linkedin"><a href="#"><img src="/img/linkedin.svg" alt="linkedin"></a></li>
+                        <li class="social-icon" id="reddit"><a href="#"><img src="/img/reddit.svg" alt="reddit"></a></li>
+                        <li class="social-icon" id="email"><a href="#"><img src="/img/mail.svg" alt="email"></a></li>
+                        <li class="social-icon" id="print"><a href="#"><img src="/img/print.svg" alt="print"></a></li>
+                    </ul>
+                </div>
+                <div class="teaser">
+                    <div class="next-edition">
+                        <img src="/img/next-edition.jpg" alt="next edition">
+                    </div>
+                    <div class="action-buttons">
+                        <ul>
+                            <li class="action-btns" id="subscribe"><a href="#">subscribe</a></li>
+                            <a href="#">
+                                <li class="action-btns" id="view-in-app"><a href="#">view in the app</a></li>
+                            </a>
+                            <li class="action-btns" id="buy-in-print"><a href="#">buy in print</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="side-bar">
-
+            <div class="side-bar-heading">
+                <button class="side-bar-btn active-nav">trending</button>
+                <button class="side-bar-btn">latest</button>
+                <button class="side-bar-btn">video</button>
+                <button class="side-bar-btn">free</button>
+            </div>
+            <div class="side-bar-content">
+                <div class="list-item">
+                    <p class="list-item-detail"><a href="#">Human brain cells in a dish learn to play Pong faster than AI</a></p>
+                    <p id="ol-number">1</p>
+                </div>
+                <div class="list-item">
+                    <p class="list-item-detail"><a href="#">Tardigrade is first multicellular organism to be quantum entangled</a></p>
+                    <p id="ol-number">2</p>
+                </div>
+                <div class="list-item">
+                    <p class="list-item-detail"><a href="#">How <span>Minecraft</span> is helping children with autism make new friends</a></p>
+                    <p id="ol-number">3</p>
+                </div>
+                <div class="list-item">
+                    <p class="list-item-detail"><a href="#">2021 in review: Jian-wei Pan leads China's quantum computing success</a></p>
+                    <p id="ol-number">4</p>
+                </div>
+                <div class="list-item">
+                    <p class="list-item-detail"><a href="#">How reliable are covid-19 lateral flow test for detecting omicron?</a></p>
+                    <p id="ol-number">5</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>

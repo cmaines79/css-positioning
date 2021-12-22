@@ -73,11 +73,16 @@ header {
 .full-width-header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-top: 30px;
   margin-bottom: 6px;
   font-size: var(--font-size-header);
   line-height: 19px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .newsletter {
@@ -129,6 +134,52 @@ header {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5.5px;
+  border-bottom: 1px solid black;
+}
+
+.navigation nav ul {
+  display: flex;
+}
+
+.nav-links {
+  display: inline-block;
+  text-transform: capitalize;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  padding-bottom: 8.25px;
+  margin-right: 16.5px;
+  transition: border 0.2s ease-in-out;
+}
+
+.active-link {
+  border-bottom: 5px solid black;
+  color: var(--color-text-lightBlue);
+}
+
+.nav-blue {
+  color: var(--color-text-lightBlue);
+}
+
+.nav-links:hover {
+  cursor: pointer;
+  color: var(--color-text-lightBlue);
+  border-bottom: 5px solid black;
+}
+
+.user-icons a {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 7.33px;
 }
 
 /* ***** START MOBILE HEADER ***** */
@@ -205,6 +256,14 @@ header {
 /* ********** END HEADER ********** */
 
 /* ********** START MAIN ********** */
+.main-section {
+  display: flex;
+}
+
+.article {
+  max-width: 778px;
+}
+
 .article-title {
   margin-bottom: 15px;
 }
@@ -361,6 +420,7 @@ header {
 .more-topics {
   display: flex;
   padding-top: 22px;
+  margin-bottom: 42px;
 }
 
 .more-topics p {
@@ -392,6 +452,142 @@ header {
 .more-topics-btns a:hover {
   background-color: var(--color-text-lightBlue);
 }
+
+.marketing {
+  width: 100%;
+  display: flex;
+  padding-top: 16px;
+}
+
+.teaser {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-edition {
+  margin-right: 11px;
+}
+
+.next-edition img {
+  width: 180.469px;
+  height: auto;
+}
+
+.action-btns {
+  list-style-type: none;
+  border-radius: 3.008px;
+  width: 180px;
+  padding: 4px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  font-size: 16px;
+}
+
+.action-buttons a {
+  color: white;
+}
+
+#subscribe {
+  background-color: rgb(0, 179, 229);
+}
+
+#view-in-app {
+  background-color: rgb(32, 178, 170);
+}
+
+#buy-in-print {
+  background-color: rgb(255, 0, 0);
+}
+
+/* ***** START SIDE-BAR ***** */
+.side-bar {
+  max-width: 300px;
+  max-height: 578px;
+  margin-left: 22px;
+  margin-bottom: 22px;
+}
+
+.side-bar-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid white;
+}
+
+.side-bar-btn {
+  background-color: rgb(245, 245, 245);
+  color: black;
+  padding: 7.33px 10px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.side-bar-btn:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+}
+
+.active-nav {
+  background-color: var(--color-text-lightBlue);
+  color: white;
+}
+
+.active-nav:hover {
+  background-color: var(--color-text-lightBlue);
+  color: white;
+}
+
+.list-item {
+  width: 100%;
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 3px solid white;
+  position: relative;
+}
+
+.list-item-detail a:hover {
+  color: var(--color-text-lightBlue);
+}
+
+.list-item p {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.06px;
+  line-height: 25px;
+}
+
+.list-item-detail {
+  max-width: 80%;
+  padding: 11px;
+}
+
+.list-item-detail span {
+  font-style: italic;
+}
+
+.side-bar-content p a {
+  max-width: 80%;
+  color: var(--color-text-black);
+  margin-right: 22px;
+}
+
+#ol-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-lightBlue);
+  position: absolute;
+  right: 5px;
+  top: 45%;
+  bottom: -45%;
+}
+/* ***** END SIDE-BAR ***** */
 
 /* ********** END MAIN ********** */
 
